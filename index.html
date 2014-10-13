@@ -1,0 +1,178 @@
+<!doctype html>
+<!-- It took me an embarassingly long time to learn that single quotes are as valid as double quotes for property values in XML and HTML.-->
+<html xmlns='http://www.w3.org/1999/xhtml' lang='en' xml:lang='en'>
+	<head>
+		<meta charset='UTF-8'/>
+		<meta name='viewport' content='width=device-width, initial-scale=1'/>
+
+		<title>Kyle Mitchell, attorney</title>
+
+		<link href='bootstrap.min.css' rel='stylesheet' type='text/css'/>
+		<link href='styles.css' rel='stylesheet' type='text/css'/>
+	</head>
+
+	<body>
+
+		<div class='page'>
+
+			<div class='container'>
+
+				<div class='row businessCard'>
+
+					<div class='col-sm-4'>
+
+						<div class='visible-xs-block text-left'>
+							<img src='placeholder.png' alt='placeholder logo' id='logo'/>
+						</div>
+
+						<div class='visible-sm-block visible-md-block visible-lg-block text-right'>
+							<img src='placeholder.png' alt='placeholder logo' id='logo'/>
+						</div>
+
+					</div>
+					
+					<div class='col-sm-8'>
+						<h1>Kyle Mitchell</h1>
+						<p id='values'>
+							open source values in technology, business &amp; intellecual property law
+						</p>
+
+						<ul id='qualifications'>
+							<li>
+								<a href='http://members.calbar.ca.gov/fal/Member/Detail/291465'>
+									<span class='visible-xs-inline'>JD</span>
+									<span class='visible-sm-inline visible-md-inline visible-lg-inline'>Attorney</span>
+								</a>
+							</li>
+							<li>
+								<a href='https://privacyassociation.org/certify/cipp/'>
+									<span class='visible-xs-inline'>CIPP/US</span>
+									<span class='visible-sm-inline visible-md-inline visible-lg-inline'>Privacy Professional</span>
+								</a>
+							</li>
+							<li>
+								<a href='https://github.com/devcounsel/devcounsel.com'>digital native</a>
+							</li>
+						</ul>
+
+						<ul class='list'>
+							<li class='phone'>
+								415-864-9913 voice + sms
+							</li>
+							<li>
+								<script type='text/javascript'>
+								//<![CDATA[
+									var spellout = 'kyle@devcounsel.com'
+									document.write(
+										('>a/<' + spellout.split('').reverse().join('') + '>"moc.lesnuocved@elyk:otliam"=ferh a<')
+										.split('')
+										.reverse()
+										.reverse()
+										.reverse()
+										.join('')
+									)
+								 //]]>
+								 </script>
+							</li>
+						</ul>
+
+						<ul class='list'>
+							<li>San Francisco, California</li>
+							<li class=''>On the Web</li>
+						</ul>
+
+						<hr/>
+
+						<ul class='list'>
+							<li>
+								<a href='https://writing.devcounsel.com/'>writing@blog</a>
+							</li>
+							<li>
+								<a href='https://vimeo.com/user33228930'>talks@vimeo</a>
+							</li>
+							<li>
+								<a href='https://github.com/kemitchell'>tools@github</a>
+							</li>
+						</ul>
+
+						<ul class='list'>
+							<li>
+								<a href='https://twitter.com/kemitchell'>txt@twitter</a>
+							</li>
+							<li>
+								<a href='http://www.linkedin.com/in/kyleevanmitchell/'>resume@linkedin</a>
+							</li>
+							<li>
+								<a href='https://news.ycombinator.com/user?id=kemitchell'>comments@hn</a>
+							</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+				<div class='footer row'>
+					<div class='col-sm-4'>
+						<p class='text-right'>
+							This site contains attorney advertising.
+						</p>
+					</div>
+					<div class='col-sm-8'>
+						<p class='text-right'>
+							<a href='privacy.html'>Privacy Policy</a>
+						</p>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div id='legalModal' class='modal fade'>
+			<div class='modal-dialog'>
+				<div class='modal-content'>
+					<div class='modal-header'>
+						<h4>Read This Short Legal Notice</h4>
+					</div>
+					<div class='modal-body'>
+							<p>
+		Unless and until we both sign an engagement letter, I am not your lawyer. 
+							</p>
+							<p>
+        Do <em>not</em> send me unsolicited messages with confidential
+        info about your legal needs.
+							</p>
+							<p>
+		Don’t rely on this site to make legal decisions. It takes a
+		lawyer, your lawyer, to learn your situation, research the law, and
+		provide good advice.
+							</p>
+						<p class='text-right'>&mdash;&nbsp;Kyle Mitchell</p>
+					</div>
+					<div class='modal-footer'>
+						<a href='http://www.calbar.ca.gov/Public/Tips.aspx' class='btn btn-default pull-left'>California Referral Services</a>
+						<button type='button' class='btn btn-primary' data-dismiss='modal'>I Agree</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type='text/javascript' src='jquery-1.11.1.min.js'></script>
+		<script type='text/javascript' src='bootstrap.min.js'></script>
+		<script type='text/javascript' src='jquery.cookie.js'></script>
+		<script>
+			$(document).ready(function() {
+				if($.cookie('agreedToNotice') != null && $.cookie('agreedToNotice') != "") {
+					$("#legalModal.modal, .modal-backdrop").hide();
+				} else {
+					$('#legalModal').modal({
+						keyboard: false,
+						backdrop: 'static'
+					});
+					$.cookie('agreedToNotice', 'true', {expires: 7});
+				}
+			});
+		</script>
+	</body>
+</html>

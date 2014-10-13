@@ -1,0 +1,204 @@
+@font-face {
+	font-family: 'X-Concourse T3';
+	src: url('./Concourse T3 Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'X-Concourse C4';
+	src: url('./Concourse C4 Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'X-Concourse C6';
+	src: url('./Concourse C6 Regular.woff') format('woff');
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+body {
+	font-family: 'X-Concourse T3';
+	font-size: 11px;
+	background-color: #e3dbdb;
+}
+
+.page {
+	background: white;
+	border-bottom: 1px solid black;
+}
+
+.businessCard {
+	margin-top: 7%;
+	margin-bottom: 7%;
+	text-align: center;
+}
+
+article p {
+	text-align: left!important;
+	font-size: 1.5em;
+}
+
+article p a {
+	color: #917c6f;
+}
+
+.container {
+	background-color: white;
+}
+
+h1 {
+	font-family: 'X-Concourse C6';
+	font-weight: 900;
+	font-size: 3em;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: -2pt;
+}
+
+#values {
+	font-family: 'X-Concourse C4';
+	text-transform: uppercase;
+	font-size: 1.9em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#qualifications {
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+#qualifications li {
+	display: inline;
+	font-family: 'X-Concourse C4';
+	text-transform: lowercase;
+}
+
+#qualifications li:before {
+	content: ' · ';
+	display: inline;
+}
+
+#qualifications li:first-child:before {
+	content: none;
+}
+
+#contact, .address {
+	font-family: 'X-Concourse C4';
+	font-size: 1.5em;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #917c6f;
+	list-style-type: none;
+}
+
+#contact li {
+	display: inline;
+	font-family: 'X-Concourse C4';
+	padding: 0; margin: 0;
+}
+
+#contact li:nth-child(even):before {
+	content: ' · ';
+	display: inline;
+}
+
+.phone {
+	font-size: 1em;
+}
+
+.list {
+	display: block;
+	color: #917c6f;
+	list-style-type: none;
+	padding: 0 0;
+	margin: 0 0;
+	font-size: 1.5em;
+	text-transform: lowercase;
+}
+
+.list li {
+	display: block;
+	font-family: 'X-Concourse C4';
+	padding: 0; margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none!important;
+}
+
+a:hover {
+	color: #999;
+}
+
+.content p {
+	font-size: 1.5em;
+}
+
+.footer p {
+	display: block;
+	font-family: 'X-Concourse T3';
+	font-size: 14px;
+	margin: 6pt 0 0 0;
+	color: #999999;
+}
+
+#logo {
+	width:140px;
+	height: auto;
+	padding-bottom: 11px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.modal {
+	font-size:1.5em;
+}
+.modal-backdrop.in {
+	opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+
+	#logo {
+		width:208px;
+		padding-bottom: 0;
+		position: relative;
+		margin: 0 0 0 0;
+		top: 12px;
+		text-align: right;
+	}
+
+	h1 {
+		font-size: 5em;
+	}
+	.businessCard {
+		text-align: left;
+	}
+
+	.list li {
+		display: inline;
+	}
+
+	.list li:before {
+		content: ' · ';
+	}
+	.list li:first-child:before {
+		content: none;
+	}
+}
