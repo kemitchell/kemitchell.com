@@ -119,60 +119,15 @@
 					</div>
 					<div class='col-sm-8'>
 						<p class='text-right'>
+							<a href='notice.html'>Legal Notice</a>
+							|
 							<a href='privacy.html'>Privacy Policy</a>
 						</p>
 					</div>
 				</div>
 
-
 			</div>
 
 		</div>
-
-		<div id='legalModal' class='modal fade'>
-			<div class='modal-dialog'>
-				<div class='modal-content'>
-					<div class='modal-header'>
-						<h4>Read This Short Legal Notice</h4>
-					</div>
-					<div class='modal-body'>
-							<p>
-		Unless and until we both sign an engagement letter, I am not your lawyer. 
-							</p>
-							<p>
-        Do <em>not</em> send me unsolicited messages with confidential
-        info about your legal needs.
-							</p>
-							<p>
-		Don’t rely on this site to make legal decisions. It takes a
-		lawyer, your lawyer, to learn your situation, research the law, and
-		provide good advice.
-							</p>
-						<p class='text-right'>&mdash;&nbsp;Kyle Mitchell</p>
-					</div>
-					<div class='modal-footer'>
-						<a href='http://www.calbar.ca.gov/Public/Tips.aspx' class='btn btn-default pull-left'>California Referral Services</a>
-						<button type='button' class='btn btn-primary' data-dismiss='modal'>I Agree</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<script type='text/javascript' src='jquery-1.11.1.min.js'></script>
-		<script type='text/javascript' src='bootstrap.min.js'></script>
-		<script type='text/javascript' src='jquery.cookie.js'></script>
-		<script>
-			$(document).ready(function() {
-				if($.cookie('agreedToNotice') != null && $.cookie('agreedToNotice') != "") {
-					$("#legalModal.modal, .modal-backdrop").hide();
-				} else {
-					$('#legalModal').modal({
-						keyboard: false,
-						backdrop: 'static'
-					});
-					$.cookie('agreedToNotice', 'true', {expires: 7});
-				}
-			});
-		</script>
 	</body>
 </html>
