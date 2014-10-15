@@ -1,204 +1,162 @@
 @font-face {
-	font-family: 'X-Concourse T3';
-	src: url('./Concourse T3 Regular.woff') format('woff');
+  font-family: 'X-Concourse';
+  src: url('./Concourse T6 Regular.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'X-Concourse C4';
-	src: url('./Concourse C4 Regular.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'X-Concourse C6';
-	src: url('./Concourse C6 Regular.woff') format('woff');
+  font-family: 'X-Concourse C';
+  src: url('./Concourse C6 Regular.woff') format('woff');
 }
 
 html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background: white;
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: 'X-Concourse';
+  font-size: 54px;
+}
+
+@media(max-width: 800px) {
+  html, body {
+    background-color: #efefef;
+  }
 }
 
 body {
-	font-family: 'X-Concourse T3';
-	font-size: 11px;
-	background-color: #e3dbdb;
-}
-
-.page {
-	background: white;
-	border-bottom: 1px solid black;
-}
-
-.businessCard {
-	margin-top: 7%;
-	margin-bottom: 7%;
-	text-align: center;
-}
-
-article p {
-	text-align: left!important;
-	font-size: 1.5em;
-}
-
-article p a {
-	color: #917c6f;
-}
-
-.container {
-	background-color: white;
+  text-align: center;
 }
 
 h1 {
-	font-family: 'X-Concourse C6';
-	font-weight: 900;
-	font-size: 3em;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	left: -2pt;
+  padding: 0;
+  margin: 0;
+  font-family: "X-Concourse";
+  font-weight: normal;
 }
 
-#values {
-	font-family: 'X-Concourse C4';
-	text-transform: uppercase;
-	font-size: 1.9em;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding: 0;
+p.slogan {
+  font-family: "X-Concourse C";
+  text-transform: lowercase;
+  text-align: justify;
+  text-align-last: justify;
+  margin: 14px 0 0 0;
+  line-height: 46px;
 }
 
-#qualifications {
-	display: block;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	font-size: 1.5em;
+p.slogan:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  font-size: 1px;
 }
 
-#qualifications li {
-	display: inline;
-	font-family: 'X-Concourse C4';
-	text-transform: lowercase;
+article {
+  width: 700px;
+  padding: 36px;
+  z-index: 2;
+  margin: 0 auto;
+  position: relative;
 }
 
-#qualifications li:before {
-	content: ' · ';
-	display: inline;
+article > ul {
+  list-style-type: none;
+  width: 100%;
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 40%;
+  margin: 0;
+  padding: 0;
+  font-family: "X-Concourse C";
 }
 
-#qualifications li:first-child:before {
-	content: none;
+article > ul > li {
+  display: inline;
 }
 
-#contact, .address {
-	font-family: 'X-Concourse C4';
-	font-size: 1.5em;
-	padding: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-	color: #917c6f;
-	list-style-type: none;
+article > ul > li:before {
+  content: ' ∙ ';
 }
 
-#contact li {
-	display: inline;
-	font-family: 'X-Concourse C4';
-	padding: 0; margin: 0;
+article > ul > li:first-child:before {
+  content: none;
 }
 
-#contact li:nth-child(even):before {
-	content: ' · ';
-	display: inline;
+article > ul > li:last-child:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
 }
 
-.phone {
-	font-size: 1em;
+article.text p {
+  font-size: 24px;
+  text-align: left;
 }
 
-.list {
-	display: block;
-	color: #917c6f;
-	list-style-type: none;
-	padding: 0 0;
-	margin: 0 0;
-	font-size: 1.5em;
-	text-transform: lowercase;
+article.text p a {
+  color: #999999;
 }
 
-.list li {
-	display: block;
-	font-family: 'X-Concourse C4';
-	padding: 0; margin: 0;
+footer {
+  border-top: 1px solid black;
+  text-align: right;
+  font-size: 30%;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li:before {
+  content: '∙ ';
+}
+
+footer ul li:first-child:before {
+  content: none;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  text-align: justify;
+  font-size: 50%;
+  overflow: hidden;
+  font-family: "X-Concourse C";
+  text-transform: lowercase;
+  color: #ededed;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#background span {
+  padding: 0 1ex 0 0 ;
 }
 
 a {
-	color: inherit;
-	text-decoration: none!important;
+  color: inherit;
+  text-decoration: none;
 }
-
 a:hover {
-	color: #999;
+  color: #8A0707;
 }
 
-.content p {
-	font-size: 1.5em;
+address {
+  font-style: normal;
 }
 
-.footer p {
-	display: block;
-	font-family: 'X-Concourse T3';
-	font-size: 14px;
-	margin: 6pt 0 0 0;
-	color: #999999;
-}
-
-#logo {
-	width:140px;
-	height: auto;
-	padding-bottom: 11px;
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-}
-
-.modal {
-	font-size:1.5em;
-}
-.modal-backdrop.in {
-	opacity: 0.9;
-}
-
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-
-	#logo {
-		width:208px;
-		padding-bottom: 0;
-		position: relative;
-		margin: 0 0 0 0;
-		top: 12px;
-		text-align: right;
-	}
-
-	h1 {
-		font-size: 5em;
-	}
-	.businessCard {
-		text-align: left;
-	}
-
-	.list li {
-		display: inline;
-	}
-
-	.list li:before {
-		content: ' · ';
-	}
-	.list li:first-child:before {
-		content: none;
-	}
+hr {
+  margin: 0.5ex 0;
 }
