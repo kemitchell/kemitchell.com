@@ -96,7 +96,6 @@ $(function() {
 		);
 	  }
 	}
-	fragment.appendChild(document.createTextNode('—'));
 	bg.appendChild(fragment.cloneNode(true));
   };
 
