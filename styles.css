@@ -51,7 +51,7 @@ p.slogan:after {
 }
 
 article {
-  width: 700px;
+  width: 690px;
   padding: 36px;
   z-index: 2;
   margin: 0 auto;
@@ -94,7 +94,11 @@ article.text p {
 }
 
 article.text p a {
-  color: #999999;
+  font-style: italic;
+}
+
+article.text p a:hover {
+  color: #8A0707;
 }
 
 footer {
