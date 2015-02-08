@@ -8,15 +8,15 @@ $(function() {
 
   // You may remeber this from CS classes I never attended.
   var shuffle = function (array) {
-	var currentIndex = array.length, temporaryValue, randomIndex;
-	while (0 !== currentIndex) {
-	  randomIndex = Math.floor(Math.random() * currentIndex);
-	  currentIndex -= 1;
-	  temporaryValue = array[currentIndex];
-	  array[currentIndex] = array[randomIndex];
-	  array[randomIndex] = temporaryValue;
-	}
-	return array;
+    var currentIndex = array.length, temporaryValue, randomIndex;
+    while (0 !== currentIndex) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
   }
 
   // Not exactly free association
@@ -84,21 +84,21 @@ $(function() {
   ];
 
   var appendWords = function (words, rounds) {
-	// Thank you, John Resig.
-	var bg = document.getElementById('background'),
-	  fragment = document.createDocumentFragment();
-	for (var round = 0; round < rounds; round++) {
-	  shuffle(words);
-	  for(var i = 0; i < words.length; i++) {
-		fragment.appendChild(
-				  // Non-breaking and a regular space.
-		  document.createTextNode(words[i] + "  ")
-		);
-	  }
-	}
-	bg.appendChild(fragment.cloneNode(true));
+    // Thank you, John Resig.
+    var bg = document.getElementById('background'),
+    fragment = document.createDocumentFragment();
+    for (var round = 0; round < rounds; round++) {
+      shuffle(words);
+      for(var i = 0; i < words.length; i++) {
+      fragment.appendChild(
+        // Non-breaking and a regular space.
+        document.createTextNode(words[i] + "  ")
+      );
+      }
+    }
+    bg.appendChild(fragment.cloneNode(true));
   };
 
-  // Quadruple-stuffed!
-  appendWords(words, 4);
+  // Quintuple-stuffed!
+  appendWords(words, 5);
 });
