@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/kemitchell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kemitchell.com
+  * I am kemitchell (https://keybase.io/kemitchell) on keybase.
+  * I have a public key with fingerprint 4866 DED9 D6E8 FA79 5EA5  BB5C CBBF 167E 84DF DD08
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.8"
+        },
+        "key": {
+            "fingerprint": "4866ded9d6e8fa795ea5bb5ccbbf167e84dfdd08",
+            "host": "keybase.io",
+            "key_id": "CBBF167E84DFDD08",
+            "uid": "b855f8ca123c45bc3f03614282879400",
+            "username": "kemitchell"
+        },
+        "merkle_root": {
+            "ctime": 1432623053,
+            "hash": "19433ca634cb3d8ca23317d9edb171f595d926b40175ce4c0903ad8bc685f48144d868e5cac2e30faf326e2479bcf358d694d03997923e372f53f582096a89ee",
+            "seqno": 226238
+        },
+        "service": {
+            "hostname": "kemitchell.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1432623095,
+    "expire_in": 157680000,
+    "prev": "4101cab2abe41af234c86df5706728f3d50344166d63913cfb68bc66d91ecb98",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFlknlMFHcUx5czQkKwtlK0gDIgpZFs5p7fbCFNKUdWLJdsI23a7Ry/YYdjZ7u7
+sNIFUgix0YSKImjQUKNUUzyp0FpQKU2LUhAseCBWsXhEMJRALIUCoTPE3vPXb36/
+z/u+933vVQd46VZ49HQElVWO3FEPY7zOJL74mxvhFbEYMbgRIV+GVqd2snIFEDEg
+ebCY5xxQLyvrrYoI9bmO9c+YGKQI2h2yYlUpVM/oAVIao+FasCRbc6DdZpc1LYQE
+NC1CkRVpCCSOYSnIUTxPCQLPSxjNQECKkiiiQJW0KA7nv7Iiy5pmWVRv34iPT1L5
+REAmJCUkLPOFyw88oCgJCByGEwJJ8QIhoQSNkTjAAcOSKKqBDmj/y1KB7BQsMD9f
+q7gA2vPyodmuKMu2BaesQRhJ4DROoBSh1sQ5LGoYxpIEIXA0QQo8IarZcILAGJGF
+Io8xmESxlMjiNE+iGEMJkBRQFiU4EfACDSiJBBhJioAGkBI4AYcEKnGSmgLiJMPy
+gkRQQKRZUkQJlmVYnIAEg0sUIVEAR1maAyyEqgkH/MCqIAZcKw2Uav/2IlmAWt1a
+4/7nTy8oBWqYza44FUHJV98sTqfNYdB8O4ttKvwF4oK8+ZmOmZetojq5f44WU9H/
+9ISlYhC4zSbboVnWCIqhAap+WiJYpM0bQzGB43GOhyTGSbjaMUCLEsWgNIMDiRAp
+lCBJTF0KmmAxQpB4WmsTLbIYFHgW/O0UqHVyOaqkQ86xcs5CO0RKd3iGeOs8Vuh8
+fTy13dX5+638c6GD0MClzVHl99peNS6Oz9fZjWsbgmb0P/B1uuS6QtcLZx7kPez6
+rsXVMdxZ/XReGPiyYXARnkfCzmbPDbb5BHpEB4Rujr/+VVxm/bpc8qG+2b2x7HRB
+/UdZQ8MVV6KuHwk94HVsdca9ivi3XpsJqjkx2WWvbCgxXmkKPmQ2XuwOdoZsYHSu
+BeepxJiZm+7WI672g901B0a2SM0nvHrSV+Wm9z0ZulxRtfrjXT6NChe+/3R1Udfb
+dd5xGzaVLok7Y0+SV/1Ssqyz7tSZzOidQ0nZyfv2+Lp+unjj5VVHW7rzalurgm7T
+ic+ZVu52733Q+nlHVshYZum6pMC0gPhr5ZPWHl2vPi7ys8NRbJ8y0NYZ0Tw3dXYo
+7BGzhIabotrnPryUyYdPmNJ2RSltLVfvDJ685nvLdHsLdm7tJWPGmTWRT/oie38/
+iN6aL+m/OyuXBQQ9D3veq/V/c1tk6KORre98+ziOCHC7DmdMt3bifhHg/o7FrPQJ
+27vG6OO7U0tq05fWDJX34l8f3UpK5xjxm6cLP07ntabcrdvIXUgZNcw17avpr++r
+KmzwHze8rqyKTT1u0W2faJzXLZ0fL9vU+Hh24VTm9kFr5Ghlws97j/3yUvYno2Pf
+R7RZYmMTpilvvrPCM7b//ab7YWnmXo7KvWC68UpXbjx/cyR4IHnqUNPwZMGvkZ9e
+Hptq399DF/8B
+=mIBb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kemitchell
+
+==================================================================
