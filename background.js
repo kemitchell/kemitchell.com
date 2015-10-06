@@ -1,4 +1,4 @@
-$(function() {
+window.addEventListener('load', function() {
 
   var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
