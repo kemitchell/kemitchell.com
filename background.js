@@ -3,10 +3,10 @@ window.addEventListener('load', function() {
   var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
   // Nobody wants to drain their cell battery rendering this.
-  // The stylesheet kicks flat grey backgrond color.
+  // The stylesheet kicks flat grey background color.
   if (width < 800 ) return;
 
-  // You may remeber this from CS classes I never attended.
+  // You may remember this from CS classes I never attended.
   var shuffle = function (array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
     while (0 !== currentIndex) {
