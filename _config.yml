@@ -1,3 +1,5 @@
 ---
 exclude:
 - vendor
+include:
+- .well-known

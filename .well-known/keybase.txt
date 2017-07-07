@@ -1,0 +1,76 @@
+
+==================================================================
+https://keybase.io/kemitchell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kemitchell.com
+  * I am kemitchell (https://keybase.io/kemitchell) on keybase.
+  * I have a public key with fingerprint 85B7 9250 A321 4265 AD52  F672 EE2F 0600 9112 F924
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120e0e2fc91da01fb7c2a2beec810f1ce75dec2251794105a51baca0e96b555d8550a",
+            "fingerprint": "85b79250a3214265ad52f672ee2f06009112f924",
+            "host": "keybase.io",
+            "key_id": "ee2f06009112f924",
+            "kid": "0101aff61a72070d38ea5595b38333584651dd5aeef39fe877af04cb27cbf01503f60a",
+            "uid": "b855f8ca123c45bc3f03614282879400",
+            "username": "kemitchell"
+        },
+        "service": {
+            "hostname": "kemitchell.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1499454177,
+    "expire_in": 157680000,
+    "prev": "3355404b85acee5e8dbfd61b8ed109b0a86d65b80a0c8b52c836386b7733ff65",
+    "seqno": 32,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.72
+Comment: https://keybase.io/crypto
+
+yMNxAnicbVJtUFRVGN6NjxJlBgrQJIouq+IEeO7HuffuBiSUhIWQwWgNutu9554L
+V5bdZfcCCuIEQcNHH2yKEiRNyqQpje2ACOEiEuUYxRSjRU6KmJNhQ4AVI2naXSZ/
+1flz5rzv8zzv87xzhoL9dEH639YE6twPzhv0w6ffK9a9bLkwUU6IdmkHYSonCvDC
+ha0SdqmWAkUiTAQgKYABpmRkJCUBkLLIIUqgRIwRTwKZRJiDEkYUBUnOyJAACpAU
+BSQAbGRFCKHEQwgEIo6QFVsedjqcik3VZHkockZK69AUyVAsFCRIySxHYW0SYAEw
+kiQlGylGI+bbXT6GZk4UXDhBsWs17WFZsPc/+Hu+ASnIMksKHAU4INE8FiA0QpHm
+aZqGPMNCUpKggLFMG2XMc5wgAwaJFIdEGZAQ0DK74Lt4QU7UYsg8EkiKRgwUES0D
+mtWc8xSvxQbAB3Rhp00oxAteCxUV5WOrlaiII7R6iYKwb7W+LP/BJCB7ocZ3OO2q
+HdmtWi9fVR0uk4+r7nD4wKVYtPwrYxEVm6TtUmOUYKdLsdsIE6khkar4dEnGaGQg
+Q3JcHIG3OxQntig+BORYHmjHNweXaJLaEiADGC2YgDCGmJdEWWJJkccSCYwiEHhW
+YqHIAwEgXoQU4mmW5lmR42ha2yskfMGKbHbCRFOaTyFP03QpeTZBLXZiomLw9BZ/
+nT5IFxhwn++T6YIWhdz7eqVKiK7FERx2/Gh89A/fBL4Uob9jnZDP1fT+tCFrVjph
+bptsNw0esxU2GhKuPXtwaQ4TNVUU+lbL1caugrHaXZ2hdzO3zaWc4r/3H79j3h94
+JcYbQB/c6K3mh5yfv7viyz+SDdb3G//s6b089nXzof21fR91doXvijjw8JLF5/FO
+w0OITVzvjdpTNae+Eo71tT+6M9J3X6xf09f6yZHqy2GbDFvj5z6zHZr397Sc6H2x
+Oih9Q+dmIKPhN0JSb0bn2OebIi+W3cjuA6+d9KTytxwSapo9JmZlDAR0+/1d/WTa
+o53x2V+YCi8cMD8eUz66wvxmak6OIWz5OyM1SUe+a+i6IacOxbUPbbv+dFyx+1JZ
+2kRM07VW3crprNujju6K0W/zm73LtgBpKDIzd+OAe+B++++V3qNbWsOE/uMjFYmx
+PWc7O34OPXu7bsAcu7bu3F1mcZr7hTOmJTkd+vpkP2q5OJf71Gbanzj1nG0m3otK
+f52OjYiIfD3TNLGyilrb+OGm5JnJnqmCjPB1q2vGD8c/v6/AFPXLwPq9s2PAE5B0
+RUrRB6fXetbdmvJs5Srfblvl3hebP9OWnTLdMPtYYthg9E68B1aWXc9c9sHIX+6k
+w/2r68uuNucmpufVVE200x0nz4efMV/avd1ys7/ugYbS3I+TX937TExm0dJFo7ZV
+k2XqcOtX4eOfPqF2P+L5B4+1uWs=
+=tU2K
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kemitchell
+
+==================================================================
