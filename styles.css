@@ -185,9 +185,17 @@ hr {
   margin: 0.5em 0 0 0;
   font-family: "X-Concourse C";
 }
+
 .cv p {
   font-weight: normal;
   font-size: 0.4em;
-  margin: 0.25em 3em 0 3em;
+  margin: 0.5em 3em 0 3em;
   text-align: justify;
+}
+
+.cv a {
+  color: darkred;
+}
+.cv a:hover {
+  text-decoration: underline;
 }
