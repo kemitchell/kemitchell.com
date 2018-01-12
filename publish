@@ -4,5 +4,6 @@ cd /var/www/kemitchell.com/
 git fetch origin
 git checkout master
 git reset --hard origin/master
+bundle install
 bundle exec jekyll build
 SESSION
