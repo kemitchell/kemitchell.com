@@ -1,4 +1,4 @@
 Gemfile.lock
 _site
 vendor
-.jekyll-metadata
+.jekyll-*
