@@ -35,8 +35,9 @@ h1 {
 
 p.slogan {
   font-family: "X-Concourse C";
+  font-size: 0.8em;
   text-transform: lowercase;
-  text-align: justify;
+  text-align: center;
   text-align-last: justify;
   margin: 14px 0 0 0;
   line-height: 46px;
