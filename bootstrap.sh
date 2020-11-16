@@ -8,4 +8,5 @@ Consider:
 - disabling SSH password authentication
 - shorewall6
 - fail2ban
+- apt install unattended-upgrades
 EOS
