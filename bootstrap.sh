@@ -1,7 +1,8 @@
 #!/bin/sh
 apt-get update
 apt-get upgrade -y
-apt-get install kitty-terminfo rsync git tree unp vim htop moreutils renameutils wget curl
+apt-get install -y kitty-terminfo rsync git tree unp vim htop moreutils renameutils wget curl
+apt clean
 cat <<EOS
 Consider:
 - disabling SSH password authentication
