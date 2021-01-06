@@ -197,6 +197,16 @@ hr {
 .cv a {
   color: darkred;
 }
+
 .cv a:hover {
   text-decoration: underline;
+}
+
+dl {
+  font-weight: normal;
+  font-size: 50%;
+}
+
+dt {
+  font-weight: bold;
 }
