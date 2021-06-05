@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-rm -rf _site
-bundler install --quiet
-bundler exec jekyll build --quiet
-rsync -a --delete _site/ kyle@kemitchell.com:/var/www/kemitchell.com/
