@@ -1,0 +1,2 @@
+#!/bin/sh
+SITE=kemitchell.com exec rsync -a --delete $(git ls-files) "$SITE:/var/www/$SITE"
