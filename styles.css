@@ -51,7 +51,7 @@ p.slogan:after {
   font-size: 1px;
 }
 
-article {
+main {
   width: 690px;
   padding: 36px;
   z-index: 2;
@@ -59,7 +59,7 @@ article {
   position: relative;
 }
 
-article > ul {
+main > ul {
   list-style-type: none;
   width: 100%;
   text-align: justify;
@@ -70,35 +70,35 @@ article > ul {
   font-family: "X-Concourse C";
 }
 
-article > ul > li {
+main > ul > li {
   display: inline;
 }
 
-article > ul > li:before {
+main > ul > li:before {
   content: ' ∙ ';
 }
 
-article > ul > li:first-child:before {
+main > ul > li:first-child:before {
   content: none;
 }
 
-article > ul > li:last-child:after {
+main > ul > li:last-child:after {
   content: "";
   display: inline-block;
   width: 100%;
   height: 0;
 }
 
-article.text p {
+main.text p {
   font-size: 24px;
   text-align: left;
 }
 
-article.text p a {
+main.text p a {
   font-style: italic;
 }
 
-article.text p a:hover {
+main.text p a:hover {
   color: #8A0707;
 }
 
