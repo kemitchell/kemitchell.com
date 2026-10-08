@@ -1,0 +1,44 @@
+html {
+  font-family: monospace;
+}
+
+table {
+  max-width: 100%;
+  margin: 0 auto;
+  border-spacing: 0;
+  td, th {
+    padding: 0.5rem;
+  }
+  thead {
+    td, th {
+      border-bottom: 1px solid black;
+    }
+    th {
+      text-align: left;
+      vertical-align: bottom;
+    }
+  }
+  tbody {
+    td {
+      vertical-align: middle;
+    }
+    @media print {
+      /* In print, draw a line under each row. */
+      tr {
+        td, th {
+          border-bottom: 1px solid #777;
+        }
+      }
+    }
+    @media screen {
+      /* If linking to a specific length, highlight its row. */
+      tr:has(td:target) {
+        background: rgba(256, 250, 0, 0.25);
+      }
+      /* Tiger stripe the table. */
+      tr:nth-child(even) {
+        background: #eee;
+      }
+    }
+  }
+}
