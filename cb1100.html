@@ -12,6 +12,13 @@
   abbr[title] {
   text-decoration: none;
   }
+  #intervals {
+    tr {
+      td:nth-child(even) {
+        border-right: 1px solid black;
+      }
+    }
+  }
   </style>
 </head>
 <body>
@@ -109,7 +116,7 @@
       <li>if needed, clean window by turning wiper</li>
     </ol>
     <h2>Maintenance Intervals</h2>
-    <table>
+    <table id=intervals>
       <thead>
         <tr>
           <th>Item</th>
